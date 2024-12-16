@@ -25,9 +25,9 @@ A escolha por um banco de dados relacional foi motivada pela necessidade de have
 
 #### Modelagem dos dados <a name = "database_models"></a>
 
-<img src="images/databaseModeloConceitual.PNG" width="470" height="690"/>
+<img src="images/databaseModeloConceitual.png" width="470" height="690"/>
 
-<img src="images/databaseModeloLogico.PNG" width="819" height="519"/>
+<img src="images/databaseModeloLogico.png" width="819" height="519"/>
 
 ## 🏁 Comece por aqui <a name = "getting_started"></a>
 
