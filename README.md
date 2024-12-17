@@ -19,7 +19,9 @@
 ## 🧐 Sobre <a name = "about"></a>
 
 O projeto visa a implantação de uma infraestrutura em nuvem utilizando o Amazon Relational Database Service (RDS) para hospedar um banco de dados PostgreSQL. A migração para o RDS foi realizada com o objetivo de atender ao crescimento da lanchonete e possibilitar futuras expansões para novas unidades, o que implica um aumento significativo no tráfego de acesso ao sistema.
-Embora a infraestrutura em nuvem implique custos para o cliente, ela oferece serviços e recursos que garantem escalabilidade, alta disponibilidade e segurança, o que torna essa solução vantajosa a longo prazo.
+Embora a infraestrutura em nuvem implique custos para o cliente, ela oferece serviços e recursos que garantem gerenciamento simplificado, escalabilidade, alta disponibilidade e segurança, o que torna essa solução vantajosa a longo prazo.
+
+Gerenciamento Simplificado: A Amazon RDS é um serviço gerenciado, o que significa que a AWS cuida do gerenciamento da infraestrutura, incluindo: Backup automático, escalabilidade automática, segurança gerenciada, entre outros. A implementação anterior, com kubernets, terriamos este trabalho de gerenciamento.
 
 A escolha por um banco de dados relacional foi motivada pela necessidade de haver um relacionamento consistente entre os dados dos clientes com os pedidos realizados. Esse modelo facilita a realização de consultas detalhadas sobre a quantidade e a frequência dos pedidos e pagamentos, permitindo, assim, a implementação de estratégias como promoções e descontos personalizados aos clientes.
 
